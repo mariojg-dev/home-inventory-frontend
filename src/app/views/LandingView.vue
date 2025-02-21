@@ -12,12 +12,11 @@
         style="transition-duration: 1500ms"
       >
         <h1 class="text-4xl font-bold text-gray-900 mb-6">
-          Welcome to Mindful Nest 🏡
+          {{ t('welcome')}}
+          <PhHouseLine class="ml-3 inline-block" size="40" />
         </h1>
         <p class="text-xl text-gray-700 leading-relaxed mb-8">
-          Embarking on a more sustainable life begins with the gentle art of
-          letting go—shedding what no longer serves you to create space for what
-          truly matters.
+            {{ t("welcome_text")}}
         </p>
         <!-- Fade button when clicked -->
         <transition name="fade">
@@ -26,7 +25,7 @@
             @click="showLogin = true"
             class="px-8 py-4 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition duration-200"
           >
-            Get Started
+            {{ t("getStarted_button")}}
           </button>
         </transition>
       </div>
@@ -80,6 +79,9 @@
 
 <script setup>
 import { ref } from "vue";
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 //Control login visbility
 const showLogin = ref(false);

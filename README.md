@@ -1,4 +1,4 @@
-# Mindful Nest 🏡
+# Mindful Nest 🏡 (WORK IN PROGRESS)
 
 Mindful Nest is a home inventory management application designed to help you document your belongings and become more conscious of your material possessions. By cataloging everything you own and tracking its usage over time, you can identify what truly matters and gradually let go of what no longer serves you. This process not only declutters your home but also clears your mind, empowering you to live a simpler, more sustainable life. 🌿
 
